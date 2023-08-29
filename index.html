@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Geolocation Sample</title>
+  <link href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" rel="stylesheet" >
+  <link href="style.css" rel="stylesheet" >
+  <script src ="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+  <script src ="script.js"></script>
+</head>
+
+<body>
+	<h1>Geolocation</h1>
+
+	<div id="map"></div>
+
+	<div id="container">
+		<p id="timeInfo">00:00:00</p>
+		<h3>DATA</h3>
+		<ul>
+		<li>経度：<span id="longitude"></span></li>
+		<li>緯度：<span id="latitude"></span></li>
+		<li>高度：<span id="altitude"></span></li>
+		<li>方位：<span id="heading"></span></li>
+		<li>速度：<span id="speed"></span></li>
+		</ul>
+
+		<h4>System Message</h4>
+		<p><span id="message">System Message</span></p>
+	</div>
+</body>
+
+</html>
