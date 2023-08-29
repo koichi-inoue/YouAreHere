@@ -2,31 +2,23 @@
 <html>
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
   <title>YouAreHere</title>
-  <link href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" rel="stylesheet" >
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+   integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+   crossorigin=""/>
   <link href="style.css" rel="stylesheet" >
-  <script src ="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
-  <script src ="script.js"></script>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+   integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+   crossorigin=""></script>
+  <script src ="script.js" defer></script>
+
 </head>
 
 <body>
-	<h1>YouAreHere</h1>
-
 	<div id="map"></div>
-	<p>▼</p>
-	<div id="information">
-		<h3>GEO DATA</h3>
-		<ul>
-		<li>経度：<span id="longitude"></span></li>
-		<li>緯度：<span id="latitude"></span></li>
-		<li>高度：<span id="altitude"></span></li>
-		<li>方位：<span id="heading"></span></li>
-		<li>速度：<span id="speed"></span></li>
-		</ul>
-
-	<p><button onclick="clearWatchPosition()">Stop Watching</button></p>
-
-	</div>
 </body>
 
 </html>
