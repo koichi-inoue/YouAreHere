@@ -6,7 +6,7 @@ body{
 
 h1 {
   text-align: center;
-  margin-top: 4rem;
+  margin-top: 2rem;
   margin-bottom: 1rem;
 }
 
@@ -16,19 +16,14 @@ p {
 }
 
 #map {
-  width: 800px;
-  height: 600px;
+  width: 92%;
+  height: 800px;
   margin: auto;
 }
 
-
-#container{
+#information{
 	width: 30rem;
 	margin: auto;
-}
-
-#buttons{
-	margin-bottom: 2rem;
 }
 
 ul{
@@ -42,15 +37,3 @@ li {
 	text-align: left;
 	list-style-type: none;
 }
-
-@media only screen and (max-width: 640px) {
-
-    #container{
-      width: 90%;
-    }
-
-		ul{
-			width: auto;
-		}
-}
-
